@@ -1,0 +1,33 @@
+/*Selector universal*/
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Selector por tag-  mas especifico maypr prioridad que universal*/
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:peru;
+}
+/*Selector por clase -  mas especifico maypr prioridad que tag*/
+.text-italic {
+    font-style: italic;
+    color: tomato;
+}
+/*Selector por id -  mas especifico maypr prioridad que clase*/
+#main-header {
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+header {
+    background: cyan;
+}
+
+section {
+    background: salmon;
+    display: inline-block;
+}
+
+aside {
+    background: slateblue;
+    display: inline-block;
+}

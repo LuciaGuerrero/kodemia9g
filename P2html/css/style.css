@@ -1,0 +1,69 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background: cyan;
+    height: 200px;
+    margin: 25px 30px;
+    border: 3px solid pink;
+}
+
+header h2 {
+    margin-bottom: 110px;
+    margin-top: 0px;
+}
+
+nav {
+    background: fuchsia;
+    height: 50px;
+    margin: 0px 35px;  
+}
+
+section {
+    background: cornflowerblue;
+    height: 700px;
+    width: 70%;
+    margin: 0px 20px 25px 30px;
+    display: inline-block;   
+}
+
+section h2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+article {
+    background: lightpink;
+    height: 180px;
+    margin: 20px 20px;
+}
+
+aside {
+    background: lightcoral;
+    height: 700px;
+    width: 24.5%;
+    margin: 0px 30px 25px 0px;
+    float: right;
+    position: relative;
+}
+
+aside h2 {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.black-border {
+    border: 2px solid black;
+}
+
+footer {
+    background: lavender;
+    height: 57px;
+    margin: 0px 30px 30px;
+    border: 4px solid blueviolet;
+}
+
+footer h2{
+    margin-top: 0px;
+}
